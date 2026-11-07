@@ -1,4 +1,4 @@
-# Steady
+# Mosaic Wellness
 
 A concept prototype for Part 2 of the Mosaic Fellowship challenge, built for Be Bodywise hair-care customers. It is not an official Mosaic or Be Bodywise product.
 
