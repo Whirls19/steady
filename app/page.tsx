@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <div className="bg-gradient-to-b from-teal-soft via-teal-soft/60 to-paper">
         <header className="mx-auto max-w-2xl px-5 pb-10 pt-10">
-          <p className="font-display text-xl font-bold text-teal">Steady</p>
+          <p className="font-display text-xl font-bold text-teal">Mosaic Wellness</p>
           <h1 className="mt-8 font-display text-4xl font-bold leading-[1.1] sm:text-6xl">Give your hair product a fair trial.</h1>
-          <p className="mt-5 max-w-prose text-lg text-ink/70">Hair changes slowly. Steady turns your start date into a clear timeline, shows what the trial will cost, and tells you when to ask an expert.</p>
+          <p className="mt-5 max-w-prose text-lg text-ink/70">Hair changes slowly. Mosaic Wellness turns your start date into a clear timeline, shows what the trial will cost, and tells you when to ask an expert.</p>
           <svg aria-hidden viewBox="-12 -8 590 124" className="mt-8 w-full overflow-visible text-teal"><path d="M8 62 C120 62 160 30 300 34 S480 10 592 14" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeDasharray="2 10" />
             {[[8, 62, "Start"], [190, 39, "Week 3"], [380, 32, "Week 6"], [592, 14, "Week 12"]].map(([x, y, t]) => (<g key={String(t)}><circle cx={x as number} cy={y as number} r="9" fill="currentColor" /><text x={Math.min(x as number, 560)} y={(y as number) + 34} fontSize="14" fontWeight="600" fill="#14263F" textAnchor={x === 8 ? "start" : "middle"}>{t as string}</text></g>))}</svg>
         </header>
